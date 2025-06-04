@@ -1,0 +1,2 @@
+# Tambahkan library yang dibutuhkan, contoh:
+# transformers==4.34.0
