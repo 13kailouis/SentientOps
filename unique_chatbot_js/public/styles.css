@@ -1,0 +1,60 @@
+body {
+  background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+  color: #e0e0e0;
+  font-family: "Courier New", monospace;
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container {
+  backdrop-filter: blur(5px);
+  background: rgba(0, 0, 0, 0.6);
+  border: 2px solid #39ff14;
+  padding: 20px;
+  width: 80%;
+  max-width: 600px;
+  box-shadow: 0 0 10px #39ff14;
+}
+
+h1 {
+  text-align: center;
+  color: #39ff14;
+  margin-top: 0;
+}
+
+#chatlog {
+  height: 300px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  border: 1px solid #39ff14;
+  padding: 10px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.message {
+  margin: 5px 0;
+}
+
+#inputArea {
+  display: flex;
+}
+
+#userInput {
+  flex: 1;
+  padding: 8px;
+  background: #111;
+  color: #39ff14;
+  border: 1px solid #39ff14;
+}
+
+#sendBtn {
+  padding: 8px 16px;
+  margin-left: 5px;
+  background: #39ff14;
+  border: none;
+  cursor: pointer;
+  color: #000;
+}
