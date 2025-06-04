@@ -34,3 +34,19 @@ pemasukan bisnis.
 
 Silakan kembangkan proyek ini sesuai kebutuhan Anda untuk mencapai potensi
 pendapatan yang maksimal.
+## Versi JavaScript dengan Gemini API
+Untuk penggunaan berbasis Node.js dan integrasi Gemini API:
+1. Pastikan Node.js 18+ sudah terpasang.
+2. Masuk ke folder `unique_chatbot_js` dan install dependensi:
+   ```bash
+   npm install
+   ```
+3. Siapkan variabel lingkungan `GEMINI_API_KEY` berisi API key Gemini Anda.
+4. Jalankan server dengan:
+   ```bash
+   npm start
+   ```
+5. Buka `http://localhost:3000` di browser untuk melihat antarmuka unik bernuansa cyber.
+
+Folder `public` di dalam `unique_chatbot_js` memuat kode HTML/CSS/JS untuk UI yang tidak biasa dengan gaya neon. Ubah sesuai kreasi Anda.
+
